@@ -4,16 +4,11 @@ var router = express.Router();
 var axios = require('axios');
 
 /* GET home page. */
+const ownerGithub ="djch-30";
+const repoGithub ="TakeHomeGitCommits";
 router.get('/', function(req, res, next) {
-    var config = {
-        method: 'GET',
-        url: 'https://api.github.com/repos/djch-30/TakeHomeGitCommits/commits',
-        headers: { 
-          'Content-Type': 'application/json'
-        }
-      };
-
-    axios.get('https://api.github.com/repos/djch-30/TakeHomeGitCommits/commits')
+    
+    axios.get('https://api.github.com/repos/'+ownerGithub+'/'+repoGithub+'/commits')
     .then((result) => {
         res.json(result.data)
     })
