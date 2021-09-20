@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { Navigation, Footer } from "./Components";
+import { Navigation, Home } from "./Components";
 import GitCommits from './Components/GitCommits';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
