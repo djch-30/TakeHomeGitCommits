@@ -58,7 +58,7 @@ export default class GitCommits extends Component {
                                 </tr>
                                 <tr>
                                     <td style={{fontSize:'12px'}}><b>repo</b></td>
-                                    <td style={{fontSize:'12px'}}>his value corresponds to the repository to consult on the Github</td>
+                                    <td style={{fontSize:'12px'}}>This value corresponds to the repository to consult on the Github</td>
                                     <td style={{fontSize:'12px'}}>String</td>
                                     <td style={{fontSize:'12px'}}>Required</td>
                                 </tr>
