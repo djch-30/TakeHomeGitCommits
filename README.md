@@ -30,7 +30,7 @@
     
    ![image](https://user-images.githubusercontent.com/91024142/133953638-501e58dc-a827-413e-bf94-bdc53142bf9f.png)
 
- - 
+ 
  - Create a Folder on your Desktop
 
    Open a command prompt (or PowerShell) and enter the following in the address of your folder:
@@ -51,7 +51,18 @@
   
   ![image](https://user-images.githubusercontent.com/91024142/133954569-94676742-a074-4000-b3ae-a13829fd19d6.png)
 
+  In the menu tab 'Git Commits', you will be able to know the commits that have been made in the cloned repository.
   
+  ![image](https://user-images.githubusercontent.com/91024142/133956140-f20127b0-a721-4cc0-a1a5-b7778b43f407.png)
+  
+  
+<h2> 🛠 &nbsp;Aditional features</h2>
+
+  If you want to configure your own repository to know the registered commits, you can do it in the following way:
+  -     In the 'api' folder, open 'routes' and 'gitCommitApi.js'
+  -       - You have two variables 'ownerGithub' and 'repoGithub', now put the corresponding values and validate
+  -         - 'ownerGithub' --> This value corresponds to the owner of the Github
+  -         - 'repoGithub' --> This value corresponds to the repository to consult on the Github
   
 
       
