@@ -6,16 +6,16 @@ var axios = require('axios');
 /* GET home page. */
 router.get('/', function(req, res, next) {
     var config = {
-        method: 'get',
+        method: 'GET',
         url: 'https://api.github.com/repos/djch-30/TakeHomeGitCommits/commits',
         headers: { 
           'Content-Type': 'application/json'
         }
       };
 
-    axios.get(config)
-    .then((data) => {
-        res.json(JSON.stringify(data, null, 2))
+    axios.get('https://api.github.com/repos/djch-30/TakeHomeGitCommits/commits')
+    .then((result) => {
+        res.json(result.data)
     })
     .catch((err) => {
         console.log(err);
