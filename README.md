@@ -11,7 +11,11 @@
   
 <h2> 🛠 &nbsp;Requirements</h2>
   
-  
+ - Install GIT
+ 
+    You can download it at the following URL:
+    https://git-scm.com/downloads
+
  - Install Node Js version LTS and NPM
    
    You can download it at the following URL:
@@ -26,7 +30,7 @@
     
    ![image](https://user-images.githubusercontent.com/91024142/133953638-501e58dc-a827-413e-bf94-bdc53142bf9f.png)
 
-
+ - 
  - Create a Folder on your Desktop
 
    Open a command prompt (or PowerShell) and enter the following in the address of your folder:
@@ -38,6 +42,8 @@
     - In the 'File' tab, select 'Open Folder ...' and find the folder where I clone the previous repository
     - In that 'Folder', Open the 'api' folder in one VSCode windows, in another windows open 'client' folder.
     - In the 'View' tab in same windows of VSCode, Open the 'Terminal'
+    -   In the 'client' folder Terminal enter the following:
+    -     npm install
     -   Now, in each VSCode terminal enter the following:
     -     npm start
 
