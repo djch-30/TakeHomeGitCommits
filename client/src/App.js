@@ -19,9 +19,14 @@ class App extends React.Component {
       <div>
 
         <Router>
-          <Route path="/GitCommits" component={() => <GitCommits />} />
+          
             <Navigation />
-            <Footer />
+            <Switch>
+              <Route path="/" exact component={() => <Home />} />
+              <Route path="/Home" component={() => <Home />} />
+              <Route path="/GitCommits" component={() => <GitCommits />} />
+            </Switch>
+            
         </Router>
         
       </div>
